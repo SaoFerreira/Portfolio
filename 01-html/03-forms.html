@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form>
+        <fieldset>
+            <legend>Sign in</legend>
+        <label>Username</label>
+        <br>
+        <input name="username" placeholder="e.g. SuperMarioFan">
+        <br>
+        <label>Password </label>
+        <br>
+        <input name="password" placeholder="e.g. 12345" type="password">
+        <br>
+
+        <input type="checkbox" name="preferences" value="pizza" id="pizza" checked/>
+        <label for="pizza"> Pizza</label>
+
+        <input type="checkbox" name="preferences" value="pasta" id="pasta"/>
+        <label for="pasta"> Pasta</label>
+
+        <input type="checkbox" name="preferences" value="mandolin" id="mandolin"/>
+        <label for="mandolin"> Mandolin</label>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female </label>
+        <br>
+
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male"> Male</label>
+
+        <input type="radio" name="gender" value="apache-helicopeter" id="apache-helicopeter">
+        <label for="apache-helicopeter">Apache Helicopeter </label>
+        
+        <br>
+        <label for="languages">Languages I know:</label>
+        <select name="languages" id="Languages">
+                <option value="html"> HyperText Markup Language</option>
+                <option value="css">Cascading StyleSheets</option>
+                <option value="js">JavaScript</option>
+        </select>
+        
+        <br>
+        <button type="submit">Login</button>
+    </fieldset>
+    </form>
+
+</body>
+</html>
