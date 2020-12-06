@@ -11,15 +11,20 @@
     <form>
         <fieldset>
             <legend>Sign in</legend>
+
+        <section>
         <label>Username</label>
         <br>
         <input name="username" placeholder="e.g. SuperMarioFan">
-        <br>
+    </section>
+
+    <section>
         <label>Password </label>
         <br>
         <input name="password" placeholder="e.g. 12345" type="password">
-        <br>
+    </section>
 
+    <section>
         <input type="checkbox" name="preferences" value="pizza" id="pizza" checked/>
         <label for="pizza"> Pizza</label>
 
@@ -28,28 +33,36 @@
 
         <input type="checkbox" name="preferences" value="mandolin" id="mandolin"/>
         <label for="mandolin"> Mandolin</label>
+    </section>
 
+    <section>
         <input type="radio" name="gender" value="female" id="female">
         <label for="female">Female </label>
-        <br>
-
+        
         <input type="radio" name="gender" value="male" id="male">
         <label for="male"> Male</label>
 
         <input type="radio" name="gender" value="apache-helicopeter" id="apache-helicopeter">
         <label for="apache-helicopeter">Apache Helicopeter </label>
-        
+
+        <input type="radio" name="gender" value="i-dont-care" id="i-dont-care" checked>
+        <label for="i-dont-care">I don't care</label>
+    
+    </section>
+
+    <section>
+        <label for="languages">Languages I <span>know:</span></label>
         <br>
-        <label for="languages">Languages I know:</label>
-        <select name="languages" id="Languages">
+        <select name="languages" id="Languages" multiple>
                 <option value="html"> HyperText Markup Language</option>
                 <option value="css">Cascading StyleSheets</option>
                 <option value="js">JavaScript</option>
         </select>
+    </section>
         
-        <br>
-        <button type="submit">Login</button>
-    </fieldset>
+        
+            <button type="submit">Login</button>
+        </fieldset>
     </form>
 
 </body>
