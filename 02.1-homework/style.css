@@ -1,3 +1,64 @@
-body {
-    background-image: url("tulips.jpg") ;
+
+@import url("background.css");
+
+.header {
+    background-color: whitesmoke;opacity: 0.7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px; 
+         }
+
+
+ul.menunav {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    background-color: whitesmoke; opacity: 0.7; height: 40px; 
+    overflow: hidden;
+    text-align: center;
     }
+
+li.menunav {
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-right: 0.5px solid #bbb;
+    }
+
+    li:hover{
+        background-color:grey;
+    }
+
+
+    h3 {
+        color: burlywood;
+    }
+    
+.column {
+        float: left;
+        width: 49%;
+        border: 5px;
+        margin: 2px;
+        text-align: center;
+        background-color: whitesmoke;                         
+    }
+
+       p{
+           color: black;
+       }
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:whitesmoke;opacity: 0.7;
+  text-align: center;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
