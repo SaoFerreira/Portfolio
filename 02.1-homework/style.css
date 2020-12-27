@@ -12,10 +12,9 @@
 
 .menunav {
     display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content:center;
     background-color: whitesmoke;
-            }
+         }
 
 .menu {
             text-align: center;

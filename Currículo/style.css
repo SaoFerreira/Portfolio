@@ -1,0 +1,50 @@
+
+body {
+    background-color: lightblue;
+    }
+
+header {
+    text-align: center;
+}
+
+p {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.global1 {
+    display:flex;
+    margin: auto;
+    width: 40%;
+    padding-left:200px;
+    
+       }
+.global2 {
+    display:flex;
+    margin: auto;
+    width: 40%; 
+        }
+
+.box {
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color:whitesmoke;
+}
+
+
+
+img {
+    border-radius: 10px;
+}
+
+
+
