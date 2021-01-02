@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    display:flexbox;
+    background-color: white; 
+    width: fit-content;
+    border-radius: 5px;    
+}
+
+.photo {
+    border-radius: 5px;
+}

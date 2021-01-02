@@ -1,16 +1,22 @@
 
 body {
     background-color: lightblue;
+    background-image: url(pexels.jpeg);
+    
     }
 
 header {
     text-align: center;
+    color: whitesmoke;
 }
 
+h1 {
+    color: white;
+}
 p {
     padding: 20px;
-    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color: white;
 }
 
 .global1 {
@@ -37,13 +43,17 @@ p {
 }
 
 .box:hover {
-    background-color:whitesmoke;
-}
-
-
+    background-color:lightgray;
+    transform: scale(1.2);
+    }
 
 img {
     border-radius: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
 }
 
 
