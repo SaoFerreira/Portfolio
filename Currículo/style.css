@@ -1,7 +1,7 @@
 
 body {
     background-color: lightblue;
-    background-image: url(pexels.jpeg);
+    /*background-image: url(pexels.jpeg);*/
     
     }
 
@@ -54,7 +54,7 @@ img {
 footer {
     color: white;
     text-align: center;
-}
+    }
 
 
 
